@@ -19,6 +19,7 @@ namespace imageExtensionDictionaryValidation
         };
         static void Main(string[] args)
         {
+            
             var pathExtension = ".jpg";
             bool Is = ImageMimeDictionary.ContainsKey(pathExtension.ToLower());
             if (Is)
